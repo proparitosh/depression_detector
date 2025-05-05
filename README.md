@@ -1,7 +1,7 @@
 # depression_detector
 
 
-1. ABSTRACT
+1. OVERVIEW
 This systematic review discusses the use of machine learning techniques in the detection and measurement of depression based on data from social media. The evolution of social media platforms within daily lives offers insights into the mental health status of its users through the posts, language usage, and their interaction patterns. Researchers, through their use of machine learning models, have discovered different means of detecting symptomatology in the patient for depression. They often rely on features like sentiment analysis and keyword identification besides behavioral patterns that may point to a presence of depression. All of these findings are synthesized from the various studies that have been reviewed. In doing so, there is an assessment of different methodologies used in the studies, the actual ML models applied, and the effectiveness of those models in predicting and measuring depression.
 
 2. OBJECTIVE AND SCOPE
