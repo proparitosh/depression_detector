@@ -1,10 +1,10 @@
 # depression_detector
 
 
-1. OVERVIEW
+1. OVERVIEW: 
 This systematic review discusses the use of machine learning techniques in the detection and measurement of depression based on data from social media. The evolution of social media platforms within daily lives offers insights into the mental health status of its users through the posts, language usage, and their interaction patterns. Researchers, through their use of machine learning models, have discovered different means of detecting symptomatology in the patient for depression. They often rely on features like sentiment analysis and keyword identification besides behavioral patterns that may point to a presence of depression. All of these findings are synthesized from the various studies that have been reviewed. In doing so, there is an assessment of different methodologies used in the studies, the actual ML models applied, and the effectiveness of those models in predicting and measuring depression.
 
-2. OBJECTIVE AND SCOPE
+2. OBJECTIVE AND SCOPE: 
 The primary objective of this review is to synthesize existing research on using machine learning to detect depression on social media platforms. It aims to:
 
 1.	Analyze the effectiveness of different machine learning algorithms in predicting depressive symptoms.
@@ -13,11 +13,10 @@ The primary objective of this review is to synthesize existing research on using
 4.	Highlight the potential ethical concerns related to privacy and data security. This review is valuable for both mental health professionals and data scientists seeking to advance the understanding of how ML can contribute to early depression detection.
 
 
-3. METHODOLOGY
+3. METHODOLOGY: 
 The methodology for detecting and measuring depression on social media using a machine learning approach involves the following steps:
 1.	Data Collection and Annotation: Gather a comprehensive dataset of social media posts from platforms like Twitter, Facebook, and Reddit. These posts should be annotated with relevant labels indicating signs of depression based on predefined mental health criteria or through surveys and self-reported data.
 2.	Preprocessing: Preprocess the collected data to clean and normalize it. This includes removing unnecessary symbols, links, and stop words. Additionally, perform tokenization, stemming, and lemmatization to prepare the text for analysis.
-
 3.	Feature Extraction: Extract important features from the pre-processed text using techniques like:
 o	Sentiment analysis (positive, negative, neutral sentiment)
 o	Lexical features (word frequency, use of depressive keywords)
@@ -33,7 +32,7 @@ o	LSTM (Long Short-Term Memory) models for text sequence analysis
 7.	Ethical Considerations: Ensure that the model adheres to ethical guidelines, particularly regarding data privacy, consent, and the sensitive nature of mental health data.
 
 
-4. HARWARE/SOFTWARE REQUIREMENTS
+4. HARWARE/SOFTWARE REQUIREMENTS: 
 1.	Python3 for data analysis
 2.	Natural Language Processing (NLP) libraries (e.g., NLTK, spaCy)
 3.	Machine learning frameworks (e.g., Scikit-learn, TensorFlow)
@@ -42,7 +41,7 @@ o	LSTM (Long Short-Term Memory) models for text sequence analysis
 
 
 
-5. CONCLUSION
+5. CONCLUSION: 
 Machine learning models show promise in detecting depression based on social media activity, offering a non-intrusive and scalable way to monitor mental health. However, challenges remain in improving accuracy, addressing biases, and safeguarding user privacy. Future research should focus on developing more sophisticated models that can differentiate between temporary mood changes and long-term depressive states, as well as ensuring ethical standards are met in data usage.
 
 
