@@ -18,7 +18,7 @@ Depression Detection on Social Media - Project Report
    i. Install required packages: pip install -r requirements.txt
    ii. Run the application: streamlit run app.py
  6. Sample Code Snippet
- # app.py
+ #app.py
  import streamlit as st
  from model import train_model, predict_depression
  model, vectorizer = train_model()
